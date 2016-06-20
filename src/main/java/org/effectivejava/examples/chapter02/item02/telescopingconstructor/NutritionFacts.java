@@ -8,7 +8,7 @@ public class NutritionFacts {
 	private final int fat; // (g) optional
 	private final int sodium; // (mg) optional
 	private final int carbohydrate; // (g) optional
-
+	
 	public NutritionFacts(int servingSize, int servings) {
 		this(servingSize, servings, 0);
 	}
